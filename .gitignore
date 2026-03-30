@@ -1,0 +1,26 @@
+# Composer
+/vendor/
+/composer.lock
+
+# PHPUnit
+.phpunit.result.cache
+
+# Logs and runtime files
+*.log
+*.cache
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+
+# Build artifacts
+build/
+dist/
+
+# CLI scripts execution
+bin/robot.php

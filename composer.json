@@ -1,0 +1,24 @@
+{
+    "name": "xplor/toy-robot-simulator",
+    "description": "Toy Robot Simulator coding challenge in PHP",
+    "type": "project",
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "XplorRobotSimulator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "XplorRobotSimulator\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit --colors=always"
+    }
+}
